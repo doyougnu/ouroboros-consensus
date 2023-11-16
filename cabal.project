@@ -31,3 +31,38 @@ tests: true
 benchmarks: true
 
 import: ./asserts.cabal
+
+source-repository-package
+  type: git
+  location: https://github.com/doyougnu/cardano-ledger
+  tag: 9b3a09485f1ba14ce8dc267d5596f85116ce5330
+  --sha256: Ll9f1iEFa3b2DwVSVWPv69I4TdwMb0ln5Sonrs1i1LI=
+  subdir:
+    eras/allegra/impl
+    eras/alonzo/impl
+    eras/alonzo/test-suite
+    eras/babbage/impl
+    eras/babbage/test-suite
+    eras/conway/impl
+    eras/conway/test-suite
+    eras/mary/impl
+    eras/shelley/impl
+    eras/shelley/test-suite
+    eras/shelley-ma/test-suite
+    libs/cardano-ledger-api
+    libs/cardano-ledger-core
+    libs/cardano-ledger-binary
+    libs/cardano-ledger-pretty
+    libs/cardano-protocol-tpraos
+    libs/non-integral
+    libs/small-steps
+    libs/small-steps-test
+    libs/cardano-data
+    libs/set-algebra
+    libs/vector-map
+    eras/byron/chain/executable-spec
+    eras/byron/ledger/executable-spec
+    eras/byron/ledger/impl
+    eras/byron/ledger/impl/test
+    eras/byron/crypto
+    eras/byron/crypto/test
